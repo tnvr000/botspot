@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/botspot/static/css/main.d7c4b139.chunk.css",
+    "main.js": "/botspot/static/js/main.88c76747.chunk.js",
+    "main.js.map": "/botspot/static/js/main.88c76747.chunk.js.map",
+    "runtime-main.js": "/botspot/static/js/runtime-main.5506ff60.js",
+    "runtime-main.js.map": "/botspot/static/js/runtime-main.5506ff60.js.map",
+    "static/js/2.c7acc7d3.chunk.js": "/botspot/static/js/2.c7acc7d3.chunk.js",
+    "static/js/2.c7acc7d3.chunk.js.map": "/botspot/static/js/2.c7acc7d3.chunk.js.map",
+    "static/js/3.3671f23e.chunk.js": "/botspot/static/js/3.3671f23e.chunk.js",
+    "static/js/3.3671f23e.chunk.js.map": "/botspot/static/js/3.3671f23e.chunk.js.map",
+    "index.html": "/botspot/index.html",
+    "static/css/main.d7c4b139.chunk.css.map": "/botspot/static/css/main.d7c4b139.chunk.css.map",
+    "static/js/2.c7acc7d3.chunk.js.LICENSE.txt": "/botspot/static/js/2.c7acc7d3.chunk.js.LICENSE.txt",
+    "static/media/signin.d855e6f0.svg": "/botspot/static/media/signin.d855e6f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5506ff60.js",
+    "static/js/2.c7acc7d3.chunk.js",
+    "static/css/main.d7c4b139.chunk.css",
+    "static/js/main.88c76747.chunk.js"
+  ]
+}
