@@ -1,0 +1,104 @@
+.base-container {
+  width: 25em;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: -1px 1px 5px 0px;
+  padding: 2em 1em;
+
+  .header {
+    font-size: 2rem;
+    font-family: sans-serif;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .image {
+      width: 12em;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .form {
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        position: relative;
+
+        label {
+          font-size: 1.3rem;
+          color: #6c63ff;
+        }
+        input {
+          margin-top: 6px;
+          min-width: 18em;
+          height:37px;
+          padding:0px 10px;
+          font-size: 1.2rem;
+          font-family: sans-serif;
+          background-color: #f3f3f3;
+          border: 1px solid #f3f3f3;
+          border-radius: 5px;
+          margin-bottom: 31px;
+          transition: all 200ms ease-in-out;
+          box-sizing: border-box;
+          &:hover {
+            background-color: #fff;
+            border-color: #00000056;
+          }
+          &:focus {
+            outline: none;
+            border-color: #00000056;
+            box-shadow: 0px 0px 3px 1px #6c63ff;
+          }
+        }
+        .input-error {
+          border: 1px solid red;
+          box-shadow: 0px 0px 3px 1px red;
+        }
+        button {
+          margin: 0 auto;
+          width: 100%;
+          padding: 0.5em 5em;
+          font-size: 1.3rem;
+          box-sizing: border-box;
+          border: 2px solid #6c63ff;
+          border-radius: 5px;
+          background-color: #6c63ff;
+          cursor: pointer;
+          color: #fff;
+          transition: all 200ms ease-in-out;
+
+          &:hover {
+            background-color: #fff;
+            color: #6c63ff;
+          }
+        }
+        .error {
+          position: absolute;
+          bottom: 0.8em;
+          font-size: 0.95rem;
+          color: red;
+
+        }
+      }
+    }
+  }
+  .footer {
+    margin-top: 3em;
+  }
+}
