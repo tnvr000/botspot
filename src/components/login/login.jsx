@@ -31,12 +31,10 @@ class Login extends React.Component {
               <input 
                 type="text" 
                 name="username" 
-                className=""
                 placeholder="username" 
                 value={this.state.username}
                 onChange={this.handleChange}
               />
-              <span className="error">error message</span>
             </div>
             <div className="form-group">
               <label htmlFor="password">Password</label>
@@ -47,7 +45,6 @@ class Login extends React.Component {
                 value={this.state.password}
                 onChange={this.handleChange}
               />
-              <span className="error">error message</span>
             </div>
             <div className="form-group">
               <button type="button">Login</button>
