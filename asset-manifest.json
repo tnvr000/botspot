@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/botspot/static/css/main.d7c4b139.chunk.css",
-    "main.js": "/botspot/static/js/main.88c76747.chunk.js",
-    "main.js.map": "/botspot/static/js/main.88c76747.chunk.js.map",
+    "main.js": "/botspot/static/js/main.b86a34c5.chunk.js",
+    "main.js.map": "/botspot/static/js/main.b86a34c5.chunk.js.map",
     "runtime-main.js": "/botspot/static/js/runtime-main.5506ff60.js",
     "runtime-main.js.map": "/botspot/static/js/runtime-main.5506ff60.js.map",
     "static/js/2.c7acc7d3.chunk.js": "/botspot/static/js/2.c7acc7d3.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.5506ff60.js",
     "static/js/2.c7acc7d3.chunk.js",
     "static/css/main.d7c4b139.chunk.css",
-    "static/js/main.88c76747.chunk.js"
+    "static/js/main.b86a34c5.chunk.js"
   ]
 }
